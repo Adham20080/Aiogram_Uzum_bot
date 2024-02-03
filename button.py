@@ -7,8 +7,8 @@ catalog = InlineKeyboardMarkup(inline_keyboard=[
 ])
 
 btn = [
-    [types.KeyboardButton(text="Telefonlar"), types.KeyboardButton(text="Aksusuarlar")],
-
+    [types.KeyboardButton(text="Telefonlar"), types.KeyboardButton(text="Aksusuarlar"),
+     types.KeyboardButton(text="Admin")],
 ]
 button = types.ReplyKeyboardMarkup(keyboard=btn, resize_keyboard=True)
 
